@@ -5,10 +5,68 @@ html {
     font-size: 18px;
     font-family: "Helvetica Neue", serif;
     line-height: 1.5em;
+    
+}
+main {
+    flex-direction: column;
+    display:flex
+    
 }
 
+section{
+    padding: 30px 100px 30px 100px;
+}
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+li{
+    margin: auto 5px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+header img{
+    margin: auto 5px;
+    border-radius: 50%;
+}
+
+a{
+    color: inherit;
+}
+
+.description>img{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.description>.description-p2{
+    clear: both;
+}
+.description{
+    background-color: #f1f1f1;
+}
+
+.relationship>img{
+    float: right;
+}
+
+
+footer{
+    background-color: #a9a9a9;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
